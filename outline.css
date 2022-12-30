@@ -1,0 +1,90 @@
+
+body {
+    background-color: whitesmoke;
+    padding: 0px;
+    border: 0px;
+    margin-top: 0px;
+    border-color: black;
+    border-width: 1000000;
+    font-family: "Lato", sans-serif;
+      
+      
+
+  }
+
+.heading{
+    background-color:grey;
+    color: red;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+
+}
+
+
+
+
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(116, 151, 160);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+.container {
+    border-style: solid ;
+    border-width: 10px;
+    border-color: rgb(62, 59, 59);
+    height: 20em;
+    padding: 16px;
+    position: absolute;
+    margin-left: 35em;
+    margin-top: 17em;
+}
+.parking_heading{
+    position: absolute;
+    margin-left: 15em;
+    margin-top: 6em;
+}
+
