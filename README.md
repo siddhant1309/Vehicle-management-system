@@ -10,3 +10,5 @@ Then go to the browser and write "http://localhost/parking1/admin_login.php".
 Then it should work.
 
 Then just download the database from this path "Database/parking1.sql"
+
+This SQL file can be then imported into the server after which it should work.
