@@ -13,5 +13,6 @@ Then go to the browser and write "http://localhost/parking1/admin_login.php".
 
 Then it should work.
 
+(C:\xampp\htdocs) put your files in this path of XAMPP server
 
 
